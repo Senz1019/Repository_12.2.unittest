@@ -1,3 +1,5 @@
+import unittest
+
 """Функции для работы с массивами"""
 
 
@@ -44,3 +46,6 @@ def my_slice(coll, start=None, end=None):
         normalized_end = end
 
     return coll[normalized_start:normalized_end]
+
+if __name__ == '__main__':
+    unittest.main()
